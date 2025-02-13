@@ -1,0 +1,210 @@
+.footer-container{
+    background-color: #C8D0D2;
+    height:15vh;
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.small-text-style{
+    margin:0px;
+    color:black;
+    font-family: Inter;
+}
+.big-text-style{
+    margin: 0px;
+    color:black;
+    font-family: Judson;
+    
+}
+.header-container{
+    height:10vh;
+    background-color: #298894;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.header-text-container{
+    display:flex;
+    flex-direction: column;
+
+}
+.header-text-style{
+    color:white
+}
+
+.sub-text-container{
+    height: 10vh;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.sub-text-text-style{
+    margin:0px;
+    color: black;
+    font-size:medium;
+    font-family: Platypi;
+    font-weight: 400;
+}
+.common-container{
+    height:85vh;
+    background-color:#ffffff;
+    width:25%;
+    border-radius: 10px;
+    margin: 20px;
+}
+.payment-screen-container{
+    height:60vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-between;
+}
+.pricing-information-text{
+    margin: 0;
+    color: #000000;
+    font-family: Phetsarath;
+    font-weight: 400;
+}
+.pricing-information-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+    .pricing-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+  }
+  
+  .pricing-table tr {
+    border: 1px solid #ccc; /* Separate border for each row */
+    color: #000000;
+
+  }
+  
+  .pricing-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Phetsarath;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    text-align: right;
+  }
+  .button-container{
+    background-color: #248995;
+    width: 100%;
+    font-family: Peddana;
+    font-size: small;
+    color: #ffffff;
+  }
+  .payment-hint-text{
+    font-size: x-small;
+    color: #000000;
+    font-family: Fustat;
+  }
+  .payment-success-screen-container{
+    height:68%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+  .payment-id-text{
+    font-size: small;
+    font-weight: 400;
+    font-family: Phetsarath;
+    color: #000000;
+    margin: 10px 0 5px 0;
+  }
+  .payment-id-text-margin{
+    margin: 5px 0 0 0;
+  }
+  .border-under-line{
+    border: 1px solid #7D7D7D;
+    width: 45%;
+
+  }
+  .payment-successful-message{
+    font-weight: 700;
+    font-family: Phetsarath;
+    font-size: x-large;
+    color: #1B9D5A;
+    margin: 5px 0 0 0;
+  }
+  .thanks-message{
+    font-weight: 400;
+    font-family: Phetsarath;
+    font-size: small;
+    color: #000000;
+    text-align: center;
+  }
+
+  @media screen and (min-width:1440px) {
+    .common-container{
+        width: 25%;
+    }
+.sub-text-text-style{
+    font-size:14px;
+}
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1440px) {
+    .common-container{
+        width: 30%;
+    }
+    .sub-text-text-style{
+        font-size: 13px;
+    }    
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .common-container{
+        width: 40%;
+    }
+    .sub-text-text-style{
+        font-size: 13px;
+    }    
+  }
+
+  @media screen and (min-width:573px) and (max-width:768px) {
+    .common-container{
+        width: 60%;
+    }
+    .sub-text-text-style{
+        font-size: 12px;
+    }    
+    .payment-hint-text{
+        font-size: xx-small;
+    }
+  }
+  @media screen and (max-width:573px){
+    .common-container{
+        width: 90%;
+    }
+    .sub-text-text-style{
+        font-size: 12px;
+    }    
+    .payment-hint-text{
+        font-size: xx-small;
+    }
+  }
